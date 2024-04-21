@@ -216,6 +216,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7939ef37752487daf8b5da768664b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  arrowSprite: {fileID: 21300000, guid: b473102855559fe44aece5625d4c17b0, type: 3}
 --- !u!1 &177510928
 GameObject:
   m_ObjectHideFlags: 0
@@ -655,7 +656,7 @@ Camera:
   far clip plane: 5000
   field of view: 40
   orthographic: 1
-  orthographic size: 10.00005
+  orthographic size: 18.0193
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1640,7 +1641,7 @@ MonoBehaviour:
   m_Follow: {fileID: 1443164774}
   m_Lens:
     FieldOfView: 40
-    OrthographicSize: 10.00005
+    OrthographicSize: 18.0193
     NearClipPlane: 0.1
     FarClipPlane: 5000
     Dutch: 0
