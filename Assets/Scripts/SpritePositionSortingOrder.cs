@@ -1,21 +1,21 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class SpritePositionSortingOrder : MonoBehaviour {
 
     [SerializeField] private bool runOnce;
-    [SerializeField] private float offsetY;
+    [SerializeField] private float positionOffsetY;
+
     private SpriteRenderer spriteRenderer;
 
     private void Awake() {
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
-    private void LasteUpdate() {
-        float percisionMultiplier = 5f;
-
-        spriteRenderer.sortingOrder = (int) (-(transform.position.y + offsetY) * percisionMultiplier);
+    private void LateUpdate() {
+        float precisionMultiplier = 5f;
+        spriteRenderer.sortingOrder = (int) (-(transform.position.y + positionOffsetY) * precisionMultiplier);
 
         if (runOnce) {
             Destroy(this);
