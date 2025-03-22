@@ -33,8 +33,6 @@
 
 Email: [DevTruce@Outlook.com]()
 
-Discord: [xzypher.]()
-
 <!-- #### MARKDOWN LINKS & IMAGES #### -->
 
 <!-- ## GitHub ##-->
